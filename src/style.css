@@ -1,0 +1,360 @@
+
+/* ================================
+   Global
+================================ */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    background-color: #ffffff;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-heading h2 {
+    font-size: 2.2rem;
+}
+
+.section-heading p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ================================
+   Navbar
+================================ */
+
+.navbar {
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    line-height: 1.1;
+}
+
+.navbar-brand small {
+    font-size: 12px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 7px;
+}
+
+.nav-link.active {
+    color: #dc3545 !important;
+}
+
+.navbar-search {
+    width: 160px;
+    border-radius: 30px;
+}
+
+.order-btn {
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+
+/* ================================
+   Home
+================================ */
+
+.hero-section {
+    background-color: #fff8f3;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.hero-image {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.hero-image-wrapper {
+    padding: 10px;
+}
+
+
+/* ================================
+   Category
+================================ */
+
+.category-card {
+    transition: none;
+}
+
+.category-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* ================================
+   About
+================================ */
+
+.about-section {
+    background-color: #fff8f3;
+}
+
+.about-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.about-stat {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+}
+
+
+/* ================================
+   Menu
+================================ */
+
+.menu-card {
+    background-color: #ffffff;
+}
+
+.menu-image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+
+/* ================================
+   Offer
+================================ */
+
+.offer-section {
+    background-color: #fff8f3;
+}
+
+.offer-badge {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #dc3545;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-badge span {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.offer-badge small {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/* ================================
+   Food Showcase
+================================ */
+
+.food-showcase-card {
+    background-color: #000000;
+}
+
+.showcase-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+.showcase-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+/* ================================
+   Journey
+================================ */
+
+.journey-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.journey-year {
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #dc3545;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+/* ================================
+   Chefs
+================================ */
+
+.chef-card {
+    background-color: #ffffff;
+}
+
+.chef-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+/* ================================
+   Opening Hours
+================================ */
+
+.opening-hours-card {
+    background-color: #ffffff;
+}
+
+
+/* ================================
+   Feedback
+================================ */
+
+.feedback-card {
+    background-color: #ffffff;
+}
+
+.feedback-text {
+    min-height: 90px;
+}
+
+.feedback-image {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* ================================
+   Reservation
+================================ */
+
+.reservation-section {
+    background-color: #fff8f3;
+}
+
+.reservation-section .card {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.reservation-section .form-control,
+.reservation-section .form-select {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.reservation-section textarea {
+    resize: none;
+}
+
+
+/* ================================
+   News
+================================ */
+
+.news-image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+
+/* ================================
+   Contact
+================================ */
+
+.contact-section {
+    background-color: #fff8f3;
+}
+
+.contact-section .card {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.contact-section .form-control {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.contact-section textarea {
+    resize: none;
+}
+
+
+/* ================================
+   Footer
+================================ */
+
+.footer-section {
+    background-color: #f8f9fa;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.footer-links a:hover {
+    color: #dc3545;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #dc3545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
